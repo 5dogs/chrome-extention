@@ -1,0 +1,38 @@
+{
+  "name": "download asset csv from RakutenShoken",
+  "description": "楽天証券の保有銘柄情報のCSVダウンロードを円滑にします",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "open-top-pages-icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.rakuten-sec.co.jp/ITS/V_ACT_Login.html*"
+    ],
+        
+        "js": ["content0.js"]
+    },
+    {
+      "matches": [
+        "*://member.rakuten-sec.co.jp/app/home*",
+        "*://member.rakuten-sec.co.jp/app/com_page_template*"
+    ],
+        
+        "js": ["content.js"]
+    },
+    {
+        "matches": ["*://member.rakuten-sec.co.jp/app/ass_all_possess*"],
+        "js": ["content2.js"]
+    },
+    {
+      "matches": ["*://docs.google.com/spreadsheets/d/14mfuqIFzjls0Zyz4Q20Istzhx3VcSFE2qrQjXPkYLws/edit#gid=0*"],
+      "js": ["content3.js"]
+    }
+  ],
+	"icons": {
+		"128": "open-top-pages-icon.png"
+	}
+}
