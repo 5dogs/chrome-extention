@@ -1,39 +1,25 @@
-# **Heading 1**
+# プロダクト詳細
+## PointHistoryScraper
+楽天ポイントクラブのポイント実績をcsvダウンロードします。元の制作者は[こちら](https://github.com/kouheisatou/PointHistoryScraper)  
+若干コードを書き換え、個人用として使用しています。  
+本家さんにプルリクエストするほどのものではないものでして(*/ω＼*)
 
-# プロダクト
-## 
+## download-asset-csv-fromRakutenShoken
+楽天証券へのログインから保有商品一覧のCSVダウンロードを円滑にします。  
+同時にみんかぶ,ヤフーファイナンス,lookerStudio,spreadSheetのページを開き、株価分析のサポートをします。
+
+## open-top-pages  
+こちらはまだ開発中
+
+## tutorial.tabs-manager  
+こちらもまだ開発中
 
 
-
-
-
-
-
-
-
-# なぜchrome Extention開発か
-* プログラミングに最初に出会ったのがExtention開発なので、初心に帰って。
+# その他
+### なぜchrome Extention開発か
+* プログラミングに最初に出会ったのがExtention開発なので、初心に帰って。  
   →当時は途中で挫折してしまったが、今となっては当時よりレベルアップしているため色々できるのではないかと思い、
 * 環境構築が簡単そうだったから
 * 公開すれば不特定多数の人に使ってもらえる可能性があるから
 
-# なぜchrome Extention開発か
-
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-
-
-*italic*
-
-`    button.addEventListener('click', () => {
-      chrome.storage.sync.set({ color }, () => {
-        console.log(`color is ${color}`);
-      });
-    });`
-
-* りんご
-
-[PWとかIDとか](simplenote://note/b8ba5f1d-e7d2-4307-8f7a-300c4da7bbab)
 
