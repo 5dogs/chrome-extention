@@ -10,6 +10,7 @@
 
 ## open-top-pages  
 google検索結果画面の上位のページをブラウザの新しいタブで開きます。
+これ結構使える
 
 ## tutorial.tabs-manager  
 こちらもまだ開発中
